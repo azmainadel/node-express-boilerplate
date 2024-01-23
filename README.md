@@ -1,11 +1,6 @@
-# RESTful API Node Server Boilerplate
+# Node ExpressJs Server Boilerplate
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-A boilerplate/starter project for quickly building RESTful APIs using Node.js, Express, and Mongoose.
-
-By running a single command, you will get a production-ready Node.js app installed and fully configured on your machine. The app comes with many built-in features, such as authentication using JWT, request validation, unit and integration tests, continuous integration, docker support, API documentation, pagination, etc. For more details, check the features list below.
-
 
 ## Installation
 
@@ -159,7 +154,7 @@ src\
  |--services\       # Business logic (service layer)
  |--utils\          # Utility classes and functions
  |--validations\    # Request data validation schemas
- |--app.js          # Express app
+ |--servers\app.js  # Express app
  |--index.js        # App entry point
 ```
 
